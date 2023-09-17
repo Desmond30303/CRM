@@ -12,7 +12,7 @@ export const Layout: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
 
     return (
         <ThemedLayoutContextProvider>
-            <Banner />
+            {/* <Banner /> */}
             <AntdLayout style={{ minHeight: "100vh" }}>
                 <Sider />
                 <AntdLayout>
